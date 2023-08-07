@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+}
+
+.project {
+  margin-bottom: 1rem;
+}
+
+.thank {
+  margin-bottom: 2rem;
+  text-align:center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 3rem;
+}
+
+.about-me{
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+
+.about-left{
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  width: 30%;
+}
+
+.profile-pic{
+  width: 80%;
+  height: auto;
+}
+
+h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 1000px){
+  .about-me{
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .about-left{
+    width: 100%;
+  }
+
+  .about-right{
+    width: 100%;
+  }
+}
